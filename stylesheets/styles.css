@@ -561,6 +561,12 @@ h1, h2, h3 {
 
 h1 {
   font-size: 28px;
+  height: 60px;
+  background-image: url("../images/logotipo-Phystech-14.png");
+  background-size: 60px auto;
+  background-repeat: no-repeat;
+  /*background: red;*/
+  background-position: right bottom; 
 }
 
 h2 {
@@ -848,4 +854,20 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+footer.footer {
+  margin: 20px 0 20px 0;
+  padding: 15px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.phystech {
+  height: 50px;  
+  background-image: url("../images/logo.png");
+  background-size: 18%;
+  background-repeat:   no-repeat;
+  background-position: center;
 }
